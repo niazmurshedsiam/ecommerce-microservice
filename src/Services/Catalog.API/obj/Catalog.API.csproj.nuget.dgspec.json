@@ -55,9 +55,9 @@
               "target": "Package",
               "version": "[7.0.20, )"
             },
-            "MongoDB.Bson": {
+            "MongoRepo": {
               "target": "Package",
-              "version": "[3.5.0, )"
+              "version": "[1.0.6, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
