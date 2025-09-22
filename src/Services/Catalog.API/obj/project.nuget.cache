@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FDSMbVzW2Ns=",
+  "dgSpecHash": "hLouFggc5BU=",
   "success": true,
-  "projectFilePath": "D:\\GakkMedia\\My Work\\ecommerce_microservice\\src\\Services\\Catalog.API\\Catalog.API.csproj",
+  "projectFilePath": "D:\\GakkMedia\\My Work\\ecommerce_microservice\\ecommerce-microservice\\src\\Services\\Catalog.API\\Catalog.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Al Hikmah Computer\\.nuget\\packages\\dnsclient\\1.2.0\\dnsclient.1.2.0.nupkg.sha512",
     "C:\\Users\\Al Hikmah Computer\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.20\\microsoft.aspnetcore.openapi.7.0.20.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GakkMedia\\My Work\\ecommerce_microservice\\src\\Services\\Catalog.API\\Catalog.API.csproj": {}
+    "D:\\GakkMedia\\My Work\\ecommerce_microservice\\ecommerce-microservice\\src\\Services\\Catalog.API\\Catalog.API.csproj": {}
   },
   "projects": {
-    "D:\\GakkMedia\\My Work\\ecommerce_microservice\\src\\Services\\Catalog.API\\Catalog.API.csproj": {
+    "D:\\GakkMedia\\My Work\\ecommerce_microservice\\ecommerce-microservice\\src\\Services\\Catalog.API\\Catalog.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GakkMedia\\My Work\\ecommerce_microservice\\src\\Services\\Catalog.API\\Catalog.API.csproj",
+        "projectUniqueName": "D:\\GakkMedia\\My Work\\ecommerce_microservice\\ecommerce-microservice\\src\\Services\\Catalog.API\\Catalog.API.csproj",
         "projectName": "Catalog.API",
-        "projectPath": "D:\\GakkMedia\\My Work\\ecommerce_microservice\\src\\Services\\Catalog.API\\Catalog.API.csproj",
+        "projectPath": "D:\\GakkMedia\\My Work\\ecommerce_microservice\\ecommerce-microservice\\src\\Services\\Catalog.API\\Catalog.API.csproj",
         "packagesPath": "C:\\Users\\Al Hikmah Computer\\.nuget\\packages\\",
-        "outputPath": "D:\\GakkMedia\\My Work\\ecommerce_microservice\\src\\Services\\Catalog.API\\obj\\",
+        "outputPath": "D:\\GakkMedia\\My Work\\ecommerce_microservice\\ecommerce-microservice\\src\\Services\\Catalog.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
