@@ -18,6 +18,7 @@ namespace Catalog.API.Controllers
         }
         [HttpGet]
         [ProducesResponseType(typeof(IEnumerable<Product>), (int)HttpStatusCode.OK)]
+        [ResponseCache(Duration = 30)]
         public IActionResult GetProduct()
         {
             try

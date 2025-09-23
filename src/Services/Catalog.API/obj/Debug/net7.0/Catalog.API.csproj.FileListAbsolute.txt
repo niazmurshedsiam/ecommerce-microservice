@@ -42,3 +42,7 @@ D:\GakkMedia\My Work\ecommerce_microservice\ecommerce-microservice\src\Services\
 D:\GakkMedia\My Work\ecommerce_microservice\ecommerce-microservice\src\Services\Catalog.API\obj\Debug\net7.0\Catalog.API.pdb
 D:\GakkMedia\My Work\ecommerce_microservice\ecommerce-microservice\src\Services\Catalog.API\obj\Debug\net7.0\Catalog.API.genruntimeconfig.cache
 D:\GakkMedia\My Work\ecommerce_microservice\ecommerce-microservice\src\Services\Catalog.API\obj\Debug\net7.0\ref\Catalog.API.dll
+D:\GakkMedia\My Work\ecommerce_microservice\ecommerce-microservice\src\Services\Catalog.API\bin\Debug\net7.0\CoreApiResponse.dll
+D:\GakkMedia\My Work\ecommerce_microservice\ecommerce-microservice\src\Services\Catalog.API\bin\Debug\net7.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\GakkMedia\My Work\ecommerce_microservice\ecommerce-microservice\src\Services\Catalog.API\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\GakkMedia\My Work\ecommerce_microservice\ecommerce-microservice\src\Services\Catalog.API\bin\Debug\net7.0\Newtonsoft.Json.dll
