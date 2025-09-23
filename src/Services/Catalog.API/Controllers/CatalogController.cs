@@ -38,7 +38,7 @@ namespace Catalog.API.Controllers
         [HttpGet]
         [ProducesResponseType(typeof(IEnumerable<Product>), (int)HttpStatusCode.OK)]
         [ResponseCache(Duration = 30)]
-        public IActionResult GetCategory(string category)
+        public IActionResult GetByCategory(string category)
         {
             try
             {
@@ -117,7 +117,7 @@ namespace Catalog.API.Controllers
 
         [HttpDelete]
         [ProducesResponseType((int)HttpStatusCode.OK)]
-        public IActionResult DeleteProduct([FromBody] string id)
+        public IActionResult DeleteProduct(string id)
         {
             try
             {
