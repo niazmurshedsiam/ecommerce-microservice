@@ -1,4 +1,6 @@
 using Catalog.API.HostedService;
+using Catalog.API.Interface.Manager;
+using Catalog.API.Manager;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +11,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddHostedService<AppHostedService>();
+builder.Services.AddScoped<IProductManager, ProductManager>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
