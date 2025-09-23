@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Discount.Grpc.Model;
+using Discount.Grpc.Protos;
 
 
 namespace Discount.Grpc.MappingProfile
@@ -8,7 +9,7 @@ namespace Discount.Grpc.MappingProfile
     {
         public MappingProfile() 
         {
-            //CreateMap<Coupon, CouponRequest>().ReverseMap();
+            CreateMap<Coupon, CouponRequest>().ReverseMap();
         }
     }
 }
