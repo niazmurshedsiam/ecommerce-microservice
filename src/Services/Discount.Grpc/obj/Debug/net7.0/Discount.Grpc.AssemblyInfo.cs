@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Discount.Grpc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b17939e1c88778493e541c63992a785fc3b24c3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc21143a285b4e46520e3c18602867f79aec57be")]
 [assembly: System.Reflection.AssemblyProductAttribute("Discount.Grpc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Discount.Grpc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
