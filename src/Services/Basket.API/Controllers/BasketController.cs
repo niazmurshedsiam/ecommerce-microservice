@@ -1,4 +1,5 @@
-﻿using Basket.API.Models;
+﻿using Basket.API.GrpcServices;
+using Basket.API.Models;
 using Basket.API.Repositories;
 using CoreApiResponse;
 using Microsoft.AspNetCore.Http;
@@ -11,10 +12,12 @@ namespace Basket.API.Controllers
     [ApiController]
     public class BasketController : BaseController
     {
-        private readonly IBasketRepository _basketRepository;
-        public BasketController(IBasketRepository basketRepository) 
+        IBasketRepository _basketRepository;
+        DiscountGrpcService _discountGrpcService;
+        public BasketController(IBasketRepository basketRepository, DiscountGrpcService discountGrpcService) 
         {
             _basketRepository = basketRepository;
+            _discountGrpcService = discountGrpcService;
         }
         [HttpGet]
         [ProducesResponseType(typeof(ShoppingCart),(int)HttpStatusCode.OK)]
@@ -23,6 +26,7 @@ namespace Basket.API.Controllers
             
             try
             {
+                
                 var basket = await _basketRepository.GetBasket(userName);
                 return CustomResult("Basket Load Data Successfully.",basket,HttpStatusCode.Accepted);
             }
@@ -39,6 +43,11 @@ namespace Basket.API.Controllers
         {
             try
             {
+                foreach (var item in basket.Items)
+                {
+                    var coupon = await _discountGrpcService.GetDiscount(item.ProductId);
+                    item.Price -= coupon.Amount;
+                }
                 return  CustomResult("Basket Update Successfully.",await _basketRepository.UpdateBasket(basket));
             }
             catch (Exception ex)
