@@ -10,7 +10,7 @@
         public ShoppingCart() { }
         public string UserName { get; set; }
 
-        List<ShoppingCartItem> Items { get; set; } = new List<ShoppingCartItem>();
+       public List<ShoppingCartItem> Items { get; set; } = new List<ShoppingCartItem>();
         public decimal TotalPrice { get
             {
                decimal totalPrice = 0;
